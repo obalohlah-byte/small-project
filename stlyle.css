@@ -20,6 +20,10 @@
   font-style: normal;
 } */
 
+ul {
+    list-style: none;
+}
+
 .span-1 {
     color: black;
 }
