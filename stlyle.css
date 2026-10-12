@@ -1,0 +1,240 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+/* .saira-<uniquifier> {
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" <width>;
+} */
+
+/* .monoton-regular {
+  font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+.span-1 {
+    color: black;
+}
+
+.span-2 {
+    font-size: 40px;
+    color: #A4C3B2;
+}
+
+
+
+body {
+    font-family: saira;
+    background-color: #A4C3B2;
+    color: white;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(98, 104, 104 );
+    padding: 20px 50px;
+    position: sticky;
+    top: 0px;
+    box-shadow: 10px 10px 10px black;
+    z-index: 100;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 400;
+     font-family: Monoton;
+}
+
+.navigation li{
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.get-started {
+    background-color: black;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px black;
+}
+
+.navigation a {
+    text-decoration: none;
+
+}
+
+.navigation a:hover {
+    color: #ddd;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    background-image:url(./image/slam-2.jpg );
+    background-position: top;
+    /* background-repeat: no-repeat; */
+    background-size: 2000px;
+    flex-wrap: wrap;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 20px;
+    flex: 3;
+    color:floralwhite;
+}
+
+#btn {
+    display: none;
+}
+
+.image{
+    flex: 1 1 150px;
+}
+
+.view-properties {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    position: relative;
+    bottom: 90px;
+    left: 20px;
+}
+
+.properties {
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.property-list {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex: 10; */
+}
+
+.property-card {
+    flex: 1 1 150px;  
+    padding: 20px;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+    background-color: rgb(255, 226, 254);
+    color: black;
+    display: inline-block;
+    box-shadow: 10px 10px 10px black;
+    max-width: 350px;
+}
+
+.property-card h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.property-card p {
+     margin-bottom: 15px;
+}
+
+.property-card button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.reason-1,
+.reason-2,
+.reason-3 {
+     flex: 1 1 250px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px black;
+}
+
+.reason {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+
+.why-us {
+    background-image: url(./image/real-estate\ image.jpg);
+    background-size: 1000px;
+    border: 2px solid #ddd;
+    box-shadow: 5px 10px 18px  black;
+    padding: 60px 50px;
+}
+
+.contact {
+    padding: 60px 50px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    max-width: 950px;
+    box-shadow: 10px 10px 10px black;
+    position: relative;
+    left: 70px;
+    z-index: 70;
+}
+
+.form {
+    max-width: 500px;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+.form button {
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+button:hover,
+.view-properties:hover,
+.get-started:hover {
+    opacity: 0.6;
+    padding: 20px;
+    background-color: red;
+
+}
+
+#hero,
+.properties,
+.why-us,
+.contact {
+    margin-bottom: 50px;
+}
